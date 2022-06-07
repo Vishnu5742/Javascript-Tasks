@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Bill</h2>
+
+<script>
+   a=parseInt(window.prompt("1.Tea Rs.10\n2.Coffee Rs.15\n3.Cold Coffee Rs.30\n4.Milk shake Rs.50\nselect a option:"));
+   switch(a)
+   {
+      case 1:
+         document.write("You are selected Tea" + "<br>");
+         var q=window.prompt("Select Quantity");
+         var q=q*10;
+         document.write("Your bill is " +q);
+             break;
+      case 2:
+      document.write("You are selected coffee" + "<br>");
+         var q=window.prompt("Select Quantity");
+         var q=q*15
+         document.write("Your bill is " +q);
+             break;
+      case 3:
+      document.write("You are selected Cold Cofee" + "<br>");
+         var q=window.prompt("Select Quantity");
+         var q=q*30
+         document.write("Your bill is " +q);
+             break;
+      case 4:
+      document.write("You are selected Milk shake" + "<br>");
+         var q=window.prompt("Select Quantity");
+         var q=q*50
+         document.write("Your bill is " +q);
+             break;
+      default:
+            alert("please enter a valid details");
+            break;
+
+   }
+</script>
+</body>
+</html>
+
+</body>
+</html>
